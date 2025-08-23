@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6bb4535-635e-4795-86d3-1fb9b1dde063" name="Changes" comment="starting commit">
-      <change afterPath="$PROJECT_DIR$/dictionary_tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
+    <list default="true" id="e6bb4535-635e-4795-86d3-1fb9b1dde063" name="Changes" comment="loops and dictionary">
+      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.dictionary_tuple.executor": "Run",
+    "Python.functions.executor": "Run",
+    "Python.inheritance.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.python_demo.executor": "Run",
+    "Python.write_file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -80,6 +85,9 @@
       <updated>1755617632493</updated>
       <workItem from="1755617633577" duration="2002000" />
       <workItem from="1755702028886" duration="8832000" />
+      <workItem from="1755884343641" duration="3765000" />
+      <workItem from="1755891491028" duration="4000" />
+      <workItem from="1755951705257" duration="6126000" />
     </task>
     <task id="LOCAL-00001" summary="starting commit">
       <option name="closed" value="true" />
@@ -121,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755618502976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="loops and dictionary">
+      <option name="closed" value="true" />
+      <created>1755884518997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755884518997</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting commit" />
+    <MESSAGE value="loops and dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="loops and dictionary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -139,12 +156,20 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inheritance.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonCompetencies$python_demo.coverage" NAME="python_demo Coverage Results" MODIFIED="1755765331218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonCompetencies$loops.coverage" NAME="loops Coverage Results" MODIFIED="1755769563135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonCompetencies$loops.coverage" NAME="loops Coverage Results" MODIFIED="1755886288673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonCompetencies$functions.coverage" NAME="functions Coverage Results" MODIFIED="1755952862138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonCompetencies$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1755961952205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonCompetencies$write_file.coverage" NAME="write_file Coverage Results" MODIFIED="1755962893807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonCompetencies$dictionary_tuple.coverage" NAME="dictionary_tuple Coverage Results" MODIFIED="1755768720642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
